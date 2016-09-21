@@ -10,6 +10,9 @@ import 'package:web_components/web_components.dart' show HtmlImport;
 @PolymerRegister('icon-toggle')
 class IconToggle extends PolymerElement {
 
+  @property
+  String toggleIcon;
+
   IconToggle.created() : super.created();
 
   void ready() {
