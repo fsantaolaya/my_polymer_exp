@@ -20,5 +20,9 @@
     <h3>Statically-configured icon-toggles</h3>
     <icon-toggle toggle-icon="star"></icon-toggle>
     <icon-toggle toggle-icon="star" pressed></icon-toggle>
+
+    <h3>Data-bound icon-toggle</h3>
+    <div>{{message(isFav)}}</div>
+    <icon-toggle toggle-icon="favorite" pressed="{{isFav}}"></icon-toggle>
   </template>
 </dom-module>

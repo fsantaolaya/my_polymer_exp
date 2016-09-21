@@ -25,6 +25,12 @@ class MainApp extends PolymerElement {
     return text.split('').reversed.join('');
   }
 
+  @property
+  bool isFav = false;
+
+  @reflectable
+  String message(bool fav) => fav ? "You really like me!" : "Do you like me?";
+
   // Optional lifecycle methods - uncomment if needed.
 
 //  /// Called when an instance of main-app is inserted into the DOM.
