@@ -4,6 +4,15 @@
       :host {
         display: inline-block;
       }
+
+      iron-icon {
+        fill: rgba(0, 0, 0, 0);
+        stroke: black;
+      }
+
+      :host([pressed]) iron-icon {
+        fill: black;
+      }
     </style>
     <iron-icon icon="polymer"></iron-icon>
   </template>
