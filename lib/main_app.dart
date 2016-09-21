@@ -5,6 +5,8 @@ library my_polymer_exp.lib.main_app;
 
 import 'dart:html';
 
+import 'icon_toggle.dart';
+
 import 'package:polymer_elements/paper_input.dart';
 import 'package:polymer/polymer.dart';
 import 'package:web_components/web_components.dart';
